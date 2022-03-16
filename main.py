@@ -50,9 +50,10 @@ deezloader_async = aioify(obj=deezloader.deezloader, name='deezloader_async')
 download = deezloader_async.DeeLogin(os.environ.get('DEEZER_TOKEN'))
 downloading_users = []
 
-bot = Bot(token=os.environ.get('TELEGRAM_TOKEN'))
+bot = Bot(5268375124:AAGq8k7JpfTPzhz13FMDg_uv7OdJEtjJ_2w)
 dp = Dispatcher(bot)
-
+updater = Updater("5268375124:AAGq8k7JpfTPzhz13FMDg_uv7OdJEtjJ_2w")
+dispatcher = updater.dispatcher
 LANGS_FILE = json.load(open('langs.json'))
 LANG = os.environ.get('BOT_LANG')
 
