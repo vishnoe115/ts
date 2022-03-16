@@ -8,7 +8,8 @@ import re
 import shutil
 import traceback
 from urllib.parse import quote
-
+from telegram import Bot
+from telegram.ext import Updater
 import deezloader.deezloader
 import requests
 from PIL import Image
@@ -481,3 +482,6 @@ async def inline_echo(inline_query: InlineQuery):
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
+POLLING_INTERVAL = 0.8
+updater.start_polling(poll_interval=POLLING_INTERVAL)
+updater.idle()
