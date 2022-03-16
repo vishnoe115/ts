@@ -407,7 +407,7 @@ async def get_playlist(event: types.Message):
         await tmp_err_msg.delete()
 
 
-@dp.message_handler(commands=['help', 'start'])
+@dp.message_handler(commands=['sgugam', 'jevan'])
 async def help_start(event: types.Message):
     bot_info = await bot.get_me()
     bot_name = bot_info.first_name.replace("_", "\\_").replace("*", "\\*").replace("[", "\\[").replace("`", "\\`")
