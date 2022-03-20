@@ -1,8 +1,7 @@
-version: "3"
-
+version: "3.9"
 services:
-  worker:
+   bot:
     build: .
-    restart: always
-    env_file:
-      - token.env
+    environment:
+      TELEGRAM_TOKEN:
+      DEEZER_TOKEN:
