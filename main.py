@@ -78,7 +78,7 @@ def crop_center(pil_img, crop_width, crop_height):
 async def get_youtube_audio(event: types.Message):
     print(event.from_user)
     if event.from_user.id not in downloading_users:
-        tmp_msg = await event.answer(__('downloading'))
+        tmp_msg = await event.answer(__('⏳'))
         downloading_users.append(event.from_user.id)
         try:
             ydl_opts = {
