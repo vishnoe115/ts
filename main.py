@@ -30,7 +30,7 @@ API_ALBUM = API_URL + "/album/%s"
 API_SEARCH_TRK = API_URL + "/search/track/?q=%s"
 API_PLAYLIST = API_URL + "/playlist/%s"
 
-DEFAULT_QUALITY = "flac"
+DEFAULT_QUALITY = "FLAC"
 
 try:
     os.mkdir("tmp")
