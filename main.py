@@ -231,7 +231,7 @@ async def get_album(event: types.Message):
         tmp = event.text
         if tmp[-1] == '/':
             tmp = tmp[:-1]
-        tmp_msg = await event.answer(__("⏳"))
+        tmp_msg = await event.answer(__("downloading"))
         downloading_users.append(event.from_user.id)
         try:
             try:
