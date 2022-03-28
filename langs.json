@@ -1,7 +1,7 @@
 {
   "downloading": {
     "fr": "Téléchargement en cours...",
-    "en": "Downloading...",
+    "en": "⏳",
     "es": "Descargando...",
     "pt": "Está fazendo o download...",
     "in": "Anda sedang download...",
@@ -9,7 +9,7 @@
   },
   "track_link": {
     "fr": "Lien du track",
-    "en": "Track link",
+    "en": "Track link 😉",
     "es": "Enlace de la canción",
     "pt": "Link da música",
     "in": "Tautan musik",
@@ -17,7 +17,7 @@
   },
   "album_link": {
     "fr": "Lien de l'album",
-    "en": "Album link",
+    "en": "Album link😉",
     "es": "Link del álbum",
     "pt": "Link do Álbum",
     "in": "Tautan Album",
@@ -25,7 +25,7 @@
   },
   "playlist_link": {
     "fr": "Lien de la playlist",
-    "en": "Playlist link",
+    "en": "Playlist link😉",
     "es": "Link de la playlist",
     "pt": "Link da playlist",
     "in": "Tautan playlist",
@@ -33,7 +33,7 @@
   },
   "download_error": {
     "fr": "Échec du téléchargement.",
-    "en": "Download failed.",
+    "en": "Download failed🙁.",
     "es": "Descarga fallida",
     "pt": "Aconteceu um erro durante o download",
     "in": "Terjadi kesalahan selama download",
@@ -41,7 +41,7 @@
   },
   "running_download": {
     "fr": "Un téléchargement est déjà en cours !",
-    "en": "A download is already in progress!",
+    "en": "A download is already in progress!😅",
     "es": "Una descarga ya está en proceso",
     "pt": "Um download já está em andamento!",
     "in": "Pengunduhan sedang berlangsung!",
