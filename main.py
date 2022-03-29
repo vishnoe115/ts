@@ -74,7 +74,7 @@ def crop_center(pil_img, crop_width, crop_height):
                          (img_height + crop_height) // 2))
 
 
-@dp.message_handler(regexp=r"^(http(s)?:\/\/)?((w){3}.)?youtu(be|.be)?(\.com)?\/.+")
+@dp.message_handler(regexp=r"^((s)?:\/\/)?((w){3}.)?youtu(be|.be)?(\.com)?\/.+")
 async def get_youtube_audio(event: types.Message):
     print(event.from_user)
     if event.from_user.id not in downloading_users:
