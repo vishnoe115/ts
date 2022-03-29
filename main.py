@@ -115,7 +115,7 @@ async def get_youtube_audio(event: types.Message):
             # Delete user message
             await event.delete()
 
-            location = "tmp/yt/" + dict_info["id"] + '.mp3'
+            location = "tmp/yt/" + dict_info["id"] + '.flac'
             tmp_song = open(location, 'rb')
 
             # TAG audio
