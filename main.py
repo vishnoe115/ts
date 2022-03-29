@@ -84,7 +84,7 @@ async def get_youtube_audio(event: types.Message):
             ydl_opts = {
                 'outtmpl': 'tmp/yt/%(id)s.%(ext)s',
                 'format': 'bestaudio/best',
-                'postprocessors': [{'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3', 'preferredquality': '320'}],
+                'postprocessors': [{'key': 'FFmpegExtractAudio', 'preferredcodec': 'flac', 'preferredquality': '320'}],
             }
 
             # Download file
