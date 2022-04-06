@@ -219,7 +219,7 @@ async def get_track(event: types.Message):
                 pass
     else:
         tmp_err_msg = await event.answer(__('running_download'))
-        await event.delete()
+        
         await asyncio.sleep(2)
         await tmp_err_msg.delete()
 
@@ -273,7 +273,7 @@ async def get_album(event: types.Message):
                                      parse_mode='HTML')
 
             # Delete user message
-            await event.delete()
+            
 
             try:
                 tmp_count = 0
@@ -318,7 +318,7 @@ async def get_album(event: types.Message):
 
     else:
         tmp_err_msg = await event.answer(__('running_download'))
-        await event.delete()
+       
         await asyncio.sleep(2)
         await tmp_err_msg.delete()
 
