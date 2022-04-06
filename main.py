@@ -195,7 +195,7 @@ async def get_track(event: types.Message):
                                      )
 
             # Delete user message
-            await event.delete()
+            
 
             tmp_song = open(dl.song_path, 'rb')
             duration = int(MP3(tmp_song).info.length)
@@ -402,7 +402,7 @@ async def get_playlist(event: types.Message):
                 pass
     else:
         tmp_err_msg = await event.answer(__('running_download'))
-        await event.delete()
+       
         await asyncio.sleep(2)
         await tmp_err_msg.delete()
 
