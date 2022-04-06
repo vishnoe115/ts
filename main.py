@@ -374,7 +374,7 @@ async def get_playlist(event: types.Message):
                                      parse_mode='HTML')
 
             # Delete user message
-            await event.delete()
+           
 
             for i in dl.tracks:
                 tmp_song = open(i.song_path, 'rb')
